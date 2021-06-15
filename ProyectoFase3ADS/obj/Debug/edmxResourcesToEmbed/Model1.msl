@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProyectoFase2ADSModelStoreContainer" CdmEntityContainer="ProyectoFase2ADSEntities">
+    <EntitySetMapping Name="tablaPadres">
+      <EntityTypeMapping TypeName="ProyectoFase2ADSModel.tablaPadres">
+        <MappingFragment StoreEntitySet="tablaPadres">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="pago" ColumnName="pago" />
+          <ScalarProperty Name="fechaDePago" ColumnName="fechaDePago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
